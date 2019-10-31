@@ -1,0 +1,36 @@
+.container-fluid{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.content-wrapper{
+    width: 100%;
+}
+.content-wrapper img{
+    width: 100%;
+}
+.text-wrapper{
+    background-image: url(./images/backgrounds/h_img.jpg);
+    background-size: cover;
+    position: center;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+}
+#logo{
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+#mouse{
+    width: 2%;
+    height: auto;
+    display: block;
+    margin-left: 46%;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    animation: bounce 3s infinite;
+}
