@@ -17,6 +17,8 @@ Through the following link: https://wamaisw.github.io/delani-studio/
 
 ## BDD
 
+<img src="images/delani.jpg" height="800" width="600">
+
 - The first thing created was an interactive webpage.
 - The user can toggle through.
 
@@ -24,7 +26,9 @@ Through the following link: https://wamaisw.github.io/delani-studio/
 Javascript has some few bugs.
 
 ## Support and Contact Details
+
  I can be reached through the following e-mail; wamaisw@gmail.com.
 
 ## License
+
  - MIT License
