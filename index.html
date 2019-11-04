@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Js/scripts.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Delani Studio</title>
 </head>
@@ -42,33 +44,49 @@
             </div>
         </div>
 
-        <div class="container-fluid text-center" id="what-we-do">
+        <div class="container-fluid text-center">
             <h1>WHAT WE DO</h1>
 
-            <div class="row pt-5" id="logos">
+            <div class="row">
                 <div class="col-md-4">
-                        <img src="./images/services_icons/design_icon.png" alt="design_icon" id="design_icon" >
+                    <div class="des">
+                        <div class="img1">
+                        <img src="./images/services_icons/design_icon.png" alt="design_icon" >
                         <h4>DESIGN</h4>
+                        </div>
+                        <div class="info1">
                         <p>Our design practice offers a full range of services including brand
-                            strategy, interaction and visual design and user experience testing. <br> <br>
+                            strategy, interaction and visual design and user experience testing.
                             Throughout your project, our designers create and implement visual design and
                             workflows, solicit user feedback and work with you to make sure what gets built is
                             what is needed.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">            
-                        <img src="./images/services_icons/dev_icon.png" alt="development_icon" id="development_icon" >
+                <div class="col-md-4">
+                    <div class="dev">  
+                    <div class="img2">        
+                        <img src="./images/services_icons/dev_icon.png" alt="development_icon" >
                         <h4>DEVELOPMENT</h4>
+                    </div>
+                    <div class="info2">
                         <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                                 They collaborate with your team to write, and improve code on a daily basis, using proven 
                                 practices such as test-driven development and pair programming.</p> 
+                            </div>       
+                    </div>            
                 </div>
                 <div class="col-md-4">
-                    
-                        <img src="./images/services_icons/product_icon.png" alt="product_management" id="product_icon">
+                    <div class="img3">
+                        <img src="./images/services_icons/product_icon.png" alt="product_management">
                         <h4>PRODUCT MANAGEMENT</h4>
-                        <P>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                    </div>
+                    <div class="product">
+                        <div class="info3"
+                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                                 This iterative process allows for changes as business requirements evolve.</P>
-                    
+                     </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,7 +131,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-light mt-4">Submit</button>
+                            <button type="submit" class="btn btn-light mt-4" onclick="(functiongmail)">Submit</button>
                 </form>
             </div>
         </div>
@@ -137,7 +155,6 @@
             <p>2019</p>
         </div>
     </div>
-    <script src="./Js/scripts.js"></script>
-    <script src="Js/scripts.js"></script>
+    
 </body>
 </html> 
