@@ -103,3 +103,7 @@
   .footer{
       text-align: center;
   }
+  .pt-5:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
