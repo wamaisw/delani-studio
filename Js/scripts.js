@@ -1,8 +1,11 @@
 $(document).ready(function(){
+  $(".info1").hide();
+  $(".info2").hide();
+  $(".info3").hide();
   $(".img1").click(function(){
     $(".info1").show();
     $("img1").hide();
-  b});
+  });
   $(".img1").click(function(){
     $(".img1").hide();
   });
