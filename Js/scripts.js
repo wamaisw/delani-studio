@@ -2,7 +2,7 @@ $(document).ready(function(){
   $(".img1").click(function(){
     $(".info1").show();
     $("img1").hide();
-  });
+  b});
   $(".img1").click(function(){
     $(".img1").hide();
   });
