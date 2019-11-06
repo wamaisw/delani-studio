@@ -37,14 +37,14 @@ $(document).ready(function(){
     $(".info3").hide();
   });
 });
-function functiongmail(){
-  var name = document.getElementById("name").value;
-  var Email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
-
-  if (name == '' || email == '' || message == ''){
-    alert('Please make sure you have filled in correctly');
+$(document).ready(function(){$('#submit').click(function () {
+  var name = $('#name').val();
+  var Email = $('#email').val();
+  var Message = $('#message');
+  event.preventDefault();
+  if (name == '' || Email == '' || Message == '' ){
+    alert('Please make sure you have filled in correctly ');
   } else {
-    alert ('Hi' + name + 'we have received your message. THank you for reaching out to us')
-  }
-}
+    alert (' Hi '+ name + ' we have received your message. Thank you for reaching out to us.');
+  }});
+  });
